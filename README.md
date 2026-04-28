@@ -5,7 +5,7 @@
 
 **Bias Playground** is an interactive critical thinking resource built to expose the cognitive biases, statistical tricks, manipulation tactics, and social engineering patterns that shape decisions without people realizing it. You don't read about the trap. You walk into it — then see the mechanism.
 
-Live demo: [bravowhiskybravo.github.io/bias-playground](https://bravowhiskybravo.github.io/bias-playground)
+Live demo: [Bias-Playground](https://bravowhiskybravo.github.io/Bias-Playground/)
 
 Part of the **BS-O-Tron Suite** → [BS-O-Tron 3000](https://bravowhiskybravo.github.io/bs-a-tron3000)
 
