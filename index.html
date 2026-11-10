@@ -7,33 +7,33 @@
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800;900&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #0b0b0b;
-  --surface: #131313;
-  --surface2: #1a1a1a;
-  --border: #252525;
-  --border2: #333;
-  --accent: #00cfff;
-  --accent-dim: #007a99;
-  --accent2: #ff3c3c;
-  --accent3: #c8ff00;
-  --text: #e2e2e2;
-  --muted: #555;
-  --muted2: #777;
-  --reveal-bg: #001a22;
-  --reveal-border: #004455;
-  --reveal-text: #7ee8ff;
-  --sev1: #00cfff;
-  --sev2: #c8ff00;
-  --sev3: #ffd500;
-  --sev4: #ff7a00;
-  --sev5: #ff3c3c;
+  --bg: #F5F5F5;
+  --surface: #EDEDED;
+  --surface2: #6C757D;
+  --border: #A8A99D;
+  --border2: #A8A99D;
+  --accent: #ff3c3c;
+  --accent-dim: #3A3A3A;
+  --accent2: #A8A99D;
+  --accent3: #ff3c3c;
+  --text: #4A4A4A;
+  --muted: #A8A99D;
+  --muted2: #B0B3B8;
+  --reveal-bg: #EDEDED;
+  --reveal-border: #bd6e6e;
+  --reveal-text: #4A4A4A;
+  --sev1: #3A3A3A;
+  --sev2: #e97a7a;
+  --sev3: #ec6262;
+  --sev4: #ff3c3c;
+  --sev5: #e94f4f;
 }
 
 *{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
 body{
   background:var(--bg);color:var(--text);
-  font-family:'IBM Plex Mono',monospace;font-size:13px;line-height:1.7;
+  font-family:'IBM Plex Mono',monospace;font-size:30px;line-height:1.7;
   min-height:100vh;
 }
 body::after{
@@ -904,7 +904,7 @@ body::after{
 ═══════════════════════════════════════════════════════ -->
 <div class="category" id="cat1">
   <div class="category-header" onclick="toggleCat('cat1')">
-    <div class="category-icon">🧠</div>
+    <div class="category-icon">•</div>
     <div class="category-title">Cognitive Psychology Classics</div>
     <div class="category-count">7 experiments</div>
     <div class="category-chevron">▼</div>
@@ -940,7 +940,7 @@ body::after{
           </div>
         </div>
         <div class="reveal-box" id="anchorReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text" id="anchorRevealText"></div>
         </div>
         <div class="examples-section">
@@ -950,7 +950,7 @@ body::after{
           <div class="example-item"><strong>Legal sentencing:</strong> Studies show that even randomly rolling dice before sentencing influences judges' decisions. A high roll → longer sentences. They know it's random. It still works.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Every "original price" on a sale tag. Every opening offer in a negotiation. Every "suggested donation" on a charity form. Real estate agents show you an overpriced house first so the next one feels reasonable.</div>
         </div>
         <div class="reading-section">
@@ -990,7 +990,7 @@ body::after{
           </div>
         </div>
         <div class="reveal-box" id="gamblerReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text">The correct answer is always <strong>50/50</strong>. A coin has no memory of previous flips. The probability of heads is 0.5 regardless of whether you just saw 10 heads in a row. The streak feels meaningful — your brain is pattern-matching noise. This is the Gambler's Fallacy: the belief that independent random events "balance out" over time. Casinos are built on the people who believe a cold slot machine is "due."</div>
         </div>
         <div class="examples-section">
@@ -1000,7 +1000,7 @@ body::after{
           <div class="example-item"><strong>Sports streaks:</strong> "He's missed 5 free throws in a row, he's definitely hitting this one" — no. Each shot is its own independent event.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Gambling industry design, sports betting, day trading ("the stock has been down 5 days — it must bounce"), and lottery marketing all exploit this. The casino's "recent results" display is pure manipulation.</div>
         </div>
         <div class="reading-section">
@@ -1028,7 +1028,7 @@ body::after{
         <div class="phase-label">▸ Which kills more Americans per year?</div>
         <div id="availQuestions"></div>
         <div class="reveal-box" id="availReveal">
-          <div class="reveal-title">⚡ Results</div>
+          <div class="reveal-title">• Results</div>
           <div class="reveal-text" id="availRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1038,7 +1038,7 @@ body::after{
           <div class="example-item"><strong>Medical self-diagnosis:</strong> After reading about a rare disease, people believe they have it — because it's now easily retrievable from memory.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">News media, political fear campaigns, insurance advertising, and pharmaceutical ads all exploit availability. "If it bleeds, it leads" isn't just a news philosophy — it's a brain hack. Coverage of plane crashes inflates perceived flight risk for months after each event.</div>
         </div>
         <div class="reading-section">
@@ -1066,7 +1066,7 @@ body::after{
         <div class="phase-label">▸ A disease outbreak is expected to kill 600 people. Two programs exist:</div>
         <div id="framingOptions"></div>
         <div class="reveal-box" id="framingReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text" id="framingRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1076,7 +1076,7 @@ body::after{
           <div class="example-item"><strong>Economic policy:</strong> "Unemployment is at 5%" vs "95% of people have jobs." Same statistic. Completely different emotional impact and political implication.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Pharmaceutical marketing ("4 out of 5 patients improved" vs "1 in 5 didn't"), political spin, financial product descriptions, and nutrition labeling all exploit framing. The data is real. The presentation is engineered.</div>
         </div>
         <div class="reading-section">
@@ -1108,7 +1108,7 @@ body::after{
           <button class="opt-btn" onclick="answerConjunction(this,'B')">B — Linda is a bank teller and active in the feminist movement</button>
         </div>
         <div class="reveal-box" id="conjReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text"><strong>A is always more probable.</strong> The probability of two things being true simultaneously (bank teller AND feminist) can never exceed the probability of just one of them being true. The set of "bank tellers" contains all bank tellers — including feminist ones. Option B is a subset of Option A. It cannot be more likely. Yet 85% of people in Tversky & Kahneman's original study chose B. The vivid backstory made B feel coherent — and coherence masquerades as probability.</div>
         </div>
         <div class="examples-section">
@@ -1118,7 +1118,7 @@ body::after{
           <div class="example-item"><strong>Investment pitches:</strong> "Tech stocks will rise" vs "Tech stocks in AI healthcare will rise 40% by Q3." The specific version feels more researched and credible. It's less likely to be exactly right.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Political messaging, legal storytelling, marketing narratives, and horoscopes all exploit this. A specific, detailed prediction feels more accurate than a vague one — which is why pseudoscience loves specificity. It signals knowledge without requiring accuracy.</div>
         </div>
         <div class="reading-section">
@@ -1145,7 +1145,7 @@ body::after{
         <div class="exp-intro">You continue investing in something <strong>because of what you've already spent</strong> — not because of future value. Past costs that can't be recovered should never influence future decisions. They always do.</div>
         <div id="sunkScenarios"></div>
         <div class="reveal-box" id="sunkReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text" id="sunkRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1155,7 +1155,7 @@ body::after{
           <div class="example-item"><strong>Eating when full:</strong> "I paid for it, I'm finishing it" — the money is spent regardless. Eating when full adds cost (discomfort) rather than recovering the sunk cost.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Free trials that require credit cards, loyalty programs, gym memberships, and timeshare sales all exploit sunk cost psychology. Once you've invested time, money, or identity into something, walking away feels like losing — even when staying is the actual loss.</div>
         </div>
         <div class="reading-section">
@@ -1183,7 +1183,7 @@ body::after{
         <div class="phase-label">▸ Rate your confidence (1–10) then answer each question</div>
         <div id="dkQuestions"></div>
         <div class="reveal-box" id="dkReveal">
-          <div class="reveal-title">⚡ Your Results</div>
+          <div class="reveal-title">• Your Results</div>
           <div class="reveal-text" id="dkRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1193,7 +1193,7 @@ body::after{
           <div class="example-item"><strong>Expert humility:</strong> Chess grandmasters, surgeons, and experienced pilots are often less confident than novices — because expertise reveals how much can go wrong.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Online misinformation spreads fastest among people confident enough to share but not knowledgeable enough to verify. Dunning-Kruger is the engine of the confident amateur — and it's weaponized by anyone who needs a large, confident, uninformed audience.</div>
         </div>
         <div class="reading-section">
@@ -1214,7 +1214,7 @@ body::after{
 ═══════════════════════════════════════════════════════ -->
 <div class="category" id="cat2">
   <div class="category-header" onclick="toggleCat('cat2')">
-    <div class="category-icon">📊</div>
+    <div class="category-icon">•</div>
     <div class="category-title">How To Lie With Statistics</div>
     <div class="category-count">6 experiments</div>
     <div class="category-chevron">▼</div>
@@ -1274,7 +1274,7 @@ body::after{
           <button class="opt-btn" onclick="answerTruncated(this,'same')">They look about the same</button>
         </div>
         <div class="reveal-box" id="truncReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text">Both charts show approval ratings rising from <strong>98% to 100%</strong> — a 2 percentage point change. Chart A starts at zero: the bars look nearly identical, the change is invisible. Chart B starts at 98: the bars go from nearly nothing to towering, implying a dramatic transformation. The data is identical. The story is opposite. A truncated Y-axis is the single most common statistical manipulation in media, advertising, and political graphics.</div>
         </div>
         <div class="examples-section">
@@ -1284,7 +1284,7 @@ body::after{
           <div class="example-item"><strong>Stock price charts:</strong> Financial media routinely uses truncated axes to make minor price movements look dramatic — driving emotional trading decisions.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Cable news graphics, pharmaceutical advertising, political campaign materials, and corporate earnings presentations. Always check where the Y-axis starts. If it doesn't start at zero, ask why.</div>
         </div>
         <div class="reading-section">
@@ -1323,7 +1323,7 @@ body::after{
           <button class="opt-btn" onclick="answerAvg(this,'mode')">Mode (most common): $38,000</button>
         </div>
         <div class="reveal-box" id="avgReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text">The mean ($98,400) is technically accurate — but it's dragged upward by the CEO's salary. <strong>84 out of 100 employees earn $38,000</strong>, which is both the median and the mode. A job posting saying "average salary $98,400" is not lying — it's choosing the average that serves the narrative. This is one of the most common and legal statistical manipulations in existence.</div>
         </div>
         <div class="examples-section">
@@ -1333,7 +1333,7 @@ body::after{
           <div class="example-item"><strong>Real estate:</strong> "Average home price in the neighborhood" can hide that 90% of homes are affordable and 2 mansions are dragging the number up dramatically.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Recruitment advertising, income inequality debates, university marketing, and housing market reporting all choose their "average" strategically. Always ask: mean, median, or mode? And how many outliers are distorting it?</div>
         </div>
         <div class="reading-section">
@@ -1376,7 +1376,7 @@ body::after{
           <button class="opt-btn" onclick="answerCorr(this,'coincidence')">Pure coincidence — correlation proves nothing</button>
         </div>
         <div class="reveal-box" id="corrReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text">The honest answer is <strong>coincidence</strong> — and the more important lesson is that <strong>r=0.67 proves nothing</strong> about causation regardless. In a dataset of thousands of variables tracked over time, spurious correlations are statistically inevitable. The Cage/drowning correlation is from Tyler Vigen's "Spurious Correlations" project, which documents hundreds of real, high-correlation relationships between completely unrelated variables. Correlation is a starting point for investigation — never a conclusion.</div>
         </div>
         <div class="examples-section">
@@ -1386,7 +1386,7 @@ body::after{
           <div class="example-item"><strong>Social media and depression:</strong> Genuinely correlated in studies. But does social media cause depression, or do depressed people use more social media? Or does a third factor cause both? This is an active research debate.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Supplement advertising ("people who take X live longer"), nutrition science media coverage, social science policy claims, and anti-vaccine arguments all present correlations as causal evidence. Always ask: what's the mechanism? What are the confounders? Has this been replicated with controls?</div>
         </div>
         <div class="reading-section">
@@ -1414,7 +1414,7 @@ body::after{
         <div class="phase-label">▸ Rate how convincing each claim sounds</div>
         <div id="sampleQuestions"></div>
         <div class="reveal-box" id="sampleReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text">The claims sound different because we project sample size onto the percentage — but <strong>none of the claims above disclosed their sample size</strong>. "4 out of 5 dentists" in the famous Colgate ad was based on a mailed survey to a small, self-selected group. Small samples produce extreme results by chance alone. A drug that works for 3 out of 4 patients in a trial of 4 is far less meaningful than one that works for 75% of 10,000 patients. The number always matters as much as the percentage.</div>
         </div>
         <div class="examples-section">
@@ -1424,7 +1424,7 @@ body::after{
           <div class="example-item"><strong>Online reviews:</strong> A product with five 5-star reviews is not more trustworthy than one with 500 reviews averaging 4.2 stars. Sample size swamps individual ratings.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Product advertising, supplement claims, political polling reporting ("leading among likely voters!"), and medical news coverage all suppress sample size information. The default question to any statistic: how many people, selected how?</div>
         </div>
         <div class="reading-section">
@@ -1456,7 +1456,7 @@ body::after{
           <button class="opt-btn" onclick="answerPct(this,'same')">"These could describe the same thing"</button>
         </div>
         <div class="reveal-box" id="pctReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text">If crime affects 1% of residents and rises to 2%, that is both <strong>"crime doubled" (100% relative increase)</strong> and <strong>"a 1 percentage point rise" (absolute change)</strong>. Both are true. One sounds like a crisis; one sounds like a rounding error. Relative figures amplify small changes — useful for drug efficacy claims ("reduces risk by 50%!"), political fear campaigns, and any situation where the absolute baseline is small. Always ask: 50% of what?</div>
         </div>
         <div class="examples-section">
@@ -1466,7 +1466,7 @@ body::after{
           <div class="example-item"><strong>Investment returns:</strong> A fund that returned 2% when cash returned 1% "doubled the benchmark" — but the absolute advantage is 1 percentage point, which may not justify the fees.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Pharmaceutical ads, political campaign claims, financial marketing, and crime reporting all strategically choose between relative and absolute figures. The rule: when the base rate is small, relative figures inflate impact. Always find the absolute number.</div>
         </div>
         <div class="reading-section">
@@ -1499,7 +1499,7 @@ body::after{
         </div>
         <button class="submit-btn" onclick="revealCherry()" id="cherryBtn">Reveal Hidden Data</button>
         <div class="reveal-box" id="cherryReveal">
-          <div class="reveal-title">⚡ Hidden Data Revealed</div>
+          <div class="reveal-title">• Hidden Data Revealed</div>
           <div class="reveal-text">The highlighted points showed a clear upward trend. The <strong style="color:var(--accent2)">red points</strong> were excluded. With all data visible, there is no meaningful trend — the relationship is essentially flat with random variation. Cherry picking is the foundation of junk science: run many tests, publish the positive result, ignore the rest. This is also known as p-hacking or the file drawer problem.</div>
         </div>
         <div class="examples-section">
@@ -1509,7 +1509,7 @@ body::after{
           <div class="example-item"><strong>Astrology validation:</strong> A person finds 4 accurate things in their horoscope and ignores the 8 that missed. The hits are remembered; the misses are forgotten.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Supplement advertising, alternative medicine, financial backtesting ("our strategy beats the market!" — tested on the period it was designed for), political data selection, and most viral "studies" in media. Ask: what data was excluded? Has this been pre-registered?</div>
         </div>
         <div class="reading-section">
@@ -1531,7 +1531,7 @@ body::after{
 ═══════════════════════════════════════════════════════ -->
 <div class="category" id="cat3">
   <div class="category-header" onclick="toggleCat('cat3')">
-    <div class="category-icon">🎩</div>
+    <div class="category-icon">•</div>
     <div class="category-title">Magic & Mentalism</div>
     <div class="category-count">4 experiments</div>
     <div class="category-chevron">▼</div>
@@ -1556,7 +1556,7 @@ body::after{
           <div class="magic-card" id="mcardB" onclick="pickMagicCard('B')">🂱<br>Ace of Hearts</div>
         </div>
         <div class="reveal-box" id="magicReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text" id="magicRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1566,7 +1566,7 @@ body::after{
           <div class="example-item"><strong>Cold reading hot reads:</strong> "I'm getting a name — it starts with J. Does that mean anything to you?" Yes → hit. No → "It may come to you later, or it could be someone on the other side." No outcome disproves the claim.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Cold readers, stage psychics, mentalists, and some sales techniques use equivocation constantly. The "choice" feels real because you made it. The predetermined outcome makes the performer appear to have predicted your free decision.</div>
         </div>
         <div class="reading-section">
@@ -1601,7 +1601,7 @@ body::after{
         </div>
         <div style="font-size:11px;color:var(--muted);margin-bottom:10px" id="changeStatus"></div>
         <div class="reveal-box" id="changeReveal">
-          <div class="reveal-title">⚡ What Changed</div>
+          <div class="reveal-title">• What Changed</div>
           <div class="reveal-text" id="changeRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1611,7 +1611,7 @@ body::after{
           <div class="example-item"><strong>Film continuity errors:</strong> Audiences routinely miss prop changes between shots because the cut creates a disruption that resets change detection. Dedicated continuity checkers exist because editors and directors miss them too.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Pickpockets, stage magicians, sleight-of-hand artists, and misdirection-based con artists all rely on change blindness. In UI design, dark patterns use distraction to hide the moment a default gets changed — exploiting the same mechanism.</div>
         </div>
         <div class="reading-section">
@@ -1656,7 +1656,7 @@ body::after{
           </div>
         </div>
         <div class="reveal-box" id="choiceReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text" id="choiceRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1666,7 +1666,7 @@ body::after{
           <div class="example-item"><strong>Product tiers:</strong> Good/Better/Best pricing is engineered so "Better" anchors to "Best." The middle option exists to make the premium feel justified.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">SaaS pricing pages, subscription services, restaurant menus, and retail pricing all use decoy options. The "obviously best value" option was designed to be obvious. Your autonomous feeling of making a smart choice was the goal all along.</div>
         </div>
         <div class="reading-section">
@@ -1696,7 +1696,7 @@ body::after{
         <div class="question-text">What does this bring to mind for you?</div>
         <div class="options" id="coldOptions"></div>
         <div class="reveal-box" id="coldReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text" id="coldRevealText"></div>
         </div>
         <div class="reading-section">
@@ -1717,7 +1717,7 @@ body::after{
 ═══════════════════════════════════════════════════════ -->
 <div class="category" id="cat4">
   <div class="category-header" onclick="toggleCat('cat4')">
-    <div class="category-icon">🔮</div>
+    <div class="category-icon">•</div>
     <div class="category-title">Pseudoscience Mechanics</div>
     <div class="category-count">4 experiments</div>
     <div class="category-chevron">▼</div>
@@ -1744,7 +1744,7 @@ body::after{
         </div>
         <button class="submit-btn" onclick="runRTTM()">Apply "Treatment"</button>
         <div class="reveal-box" id="rttmReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text" id="rttmRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1754,7 +1754,7 @@ body::after{
           <div class="example-item"><strong>Magazine covers:</strong> Athletes on the cover of Sports Illustrated often underperform afterward — the "SI Curse." They were selected because of a peak performance. Regression to mean was inevitable.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">The entire alternative medicine industry benefits from regression to mean. People don't take homeopathy, crystals, or detox teas when they feel fine — they take them at their worst. Natural recovery provides the testimonials. The treatment gets the credit.</div>
         </div>
         <div class="reading-section">
@@ -1823,7 +1823,7 @@ body::after{
         </div>
         <button class="submit-btn" onclick="revealPlacebo()">Submit Ratings</button>
         <div class="reveal-box" id="placeboReveal">
-          <div class="reveal-title">⚡ The Trap Sprung</div>
+          <div class="reveal-title">• The Trap Sprung</div>
           <div class="reveal-text" id="placeboRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1833,7 +1833,7 @@ body::after{
           <div class="example-item"><strong>Red bull in unmarked cups:</strong> Test subjects who knew they were drinking Red Bull showed better performance than those who had an identical drink but were told it was a generic brand.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Premium pricing, luxury branding, supplement packaging, and pharmaceutical brand extensions all harvest placebo value. The placebo effect is real and measurable — which means paying $40 for branded aspirin has a genuine benefit that paying $4 for generic doesn't fully replicate.</div>
         </div>
         <div class="reading-section">
@@ -1863,7 +1863,7 @@ body::after{
         <div class="phase-label">▸ Try to disprove it:</div>
         <div class="options" id="unfalsifiableOptions"></div>
         <div class="reveal-box" id="unfalsifiableReveal">
-          <div class="reveal-title">⚡ Countered</div>
+          <div class="reveal-title">• Countered</div>
           <div class="reveal-text" id="unfalsifiableRevealText"></div>
         </div>
         <div style="margin-top:10px">
@@ -1887,7 +1887,7 @@ body::after{
 ═══════════════════════════════════════════════════════ -->
 <div class="category" id="cat5">
   <div class="category-header" onclick="toggleCat('cat5')">
-    <div class="category-icon">⚡</div>
+    <div class="category-icon">•</div>
     <div class="category-title">Bonus Round</div>
     <div class="category-count">5 experiments</div>
     <div class="category-chevron">▼</div>
@@ -1914,7 +1914,7 @@ body::after{
         </div>
         <button class="submit-btn" onclick="revealSpotlight()">Submit</button>
         <div class="reveal-box" id="spotlightReveal">
-          <div class="reveal-title">⚡ The Research Says</div>
+          <div class="reveal-title">• The Research Says</div>
           <div class="reveal-text" id="spotlightRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1924,7 +1924,7 @@ body::after{
           <div class="example-item"><strong>Social media:</strong> The agonizing over whether to post, the checking for likes — your audience is far less attentive than you imagine. Most people are the main character of their own story, not a supporting character in yours.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Fashion and personal care advertising exploits spotlight effect anxiety — "everyone will notice your skin/hair/teeth." They won't. But the fear that they will is real and commercially valuable.</div>
         </div>
         <div class="reading-section">
@@ -1965,7 +1965,7 @@ body::after{
         </div>
         <button class="submit-btn" onclick="revealIKEA()">Compare</button>
         <div class="reveal-box" id="ikeaReveal">
-          <div class="reveal-title">⚡ The Research Says</div>
+          <div class="reveal-title">• The Research Says</div>
           <div class="reveal-text" id="ikeaRevealText"></div>
         </div>
         <div class="examples-section">
@@ -1975,7 +1975,7 @@ body::after{
           <div class="example-item"><strong>DIY home renovation:</strong> Homeowners consistently overestimate the value their own renovations add to their home compared to professional appraisals.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">IKEA's entire business model harvests this effect. "Build-your-own" product experiences (custom shoes, configure-your-own laptops) also leverage it. Getting customers to do labor doesn't just cut costs — it makes them love the product more.</div>
         </div>
         <div class="reading-section">
@@ -2051,7 +2051,7 @@ body::after{
           <button class="opt-btn" onclick="answerHotHand(this,'lower')">Lower — regression to the mean will kick in</button>
         </div>
         <div class="reveal-box" id="hotHandReveal">
-          <div class="reveal-title">⚡ The Research Says</div>
+          <div class="reveal-title">• The Research Says</div>
           <div class="reveal-text">This is genuinely contested. The original Gilovich et al. (1985) study found <strong>no statistical evidence for hot hands in basketball</strong> — each shot was independent of previous shots. However, a 2016 reanalysis found a small but real hot hand effect once selection bias was corrected for. The consensus: any real effect is far smaller than perceived. The <em>feeling</em> of a hot hand is a cognitive illusion; the statistical reality is debated but modest at best. Meanwhile, defenders adjust to hot shooters — which may wash out the effect entirely.</div>
         </div>
         <div class="examples-section">
@@ -2061,7 +2061,7 @@ body::after{
           <div class="example-item"><strong>Investment funds:</strong> Funds that outperform for 3 years attract massive inflows as investors chase the "hot" manager. Most subsequent years show regression to market average performance.</div>
         </div>
         <div class="wild-box">
-          <div class="wild-label">⚡ Used In The Wild</div>
+          <div class="wild-label">• Used In The Wild</div>
           <div class="wild-text">Sports betting lines, investment marketing ("top performing fund!"), and casino psychology all exploit hot hand perception. The feeling of momentum is real. The statistical basis for it usually isn't.</div>
         </div>
         <div class="reading-section">
@@ -2153,7 +2153,7 @@ body::after{
 
 <div class="category" id="cat6">
   <div class="category-header" onclick="toggleCat('cat6')">
-    <div class="category-icon">🎣</div>
+    <div class="category-icon">•</div>
     <div class="category-title">Scams & Social Engineering</div>
     <div class="category-count">6 experiments</div>
     <div class="category-chevron">▼</div>
@@ -2180,7 +2180,7 @@ body::after{
       <!-- FAKE OFFER PAGE -->
       <div class="urgency-mock" id="urgencyMock">
         <div class="urg-banner" style="position:relative">
-          ⚡ FLASH SALE — ENDS IN:
+          • FLASH SALE — ENDS IN:
           <div class="annotation" style="top:-2px;right:-2px">① Fake urgency</div>
         </div>
         <div class="urg-timer" id="urgTimer">00:14:37</div>
@@ -2286,7 +2286,7 @@ body::after{
       </div>
       <div id="pretextScenario"></div>
       <div class="reveal-box" id="pretextReveal">
-        <div class="reveal-title">⚡ The Full Playbook — Regardless of Your Choices</div>
+        <div class="reveal-title">• The Full Playbook — Regardless of Your Choices</div>
         <div class="reveal-text">
           Every social engineering call follows the same four-phase structure:<br><br>
           <strong>① Establish Authority</strong> — Name, role, organization. Make you feel they have power over you or can help you. Often includes insider-sounding details (your name, your company's IT system name) obtained from LinkedIn or company websites.<br><br>
@@ -2335,7 +2335,7 @@ body::after{
         <div style="font-size:11px;color:var(--muted);padding:10px 0">You flagged: <span id="vishingFlagCount">0</span> lines</div>
       </div>
       <div class="reveal-box" id="vishingReveal">
-        <div class="reveal-title">⚡ Script Fully Annotated</div>
+        <div class="reveal-title">• Script Fully Annotated</div>
         <div class="reveal-text" id="vishingRevealText"></div>
       </div>
       <div class="pattern-tags-used">
@@ -2478,7 +2478,7 @@ body::after{
 
 <div class="category" id="cat7">
   <div class="category-header" onclick="toggleCat('cat7')">
-    <div class="category-icon">🧩</div>
+    <div class="category-icon">•</div>
     <div class="category-title">Manipulation Tactics</div>
     <div class="category-count">12 tactics</div>
     <div class="category-chevron">▼</div>
@@ -2497,7 +2497,7 @@ body::after{
 <!-- 8A: RED FLAG CHECKLIST -->
 <div class="category" id="cat8a">
   <div class="category-header" onclick="toggleCat('cat8a')">
-    <div class="category-icon">⚑</div>
+    <div class="category-icon">•</div>
     <div class="category-title">Red Flag Checklist</div>
     <div class="category-count">Interactive self-assessment</div>
     <div class="category-chevron">▼</div>
@@ -2534,7 +2534,7 @@ body::after{
 <!-- 8B: COUNTERMEASURES LIBRARY -->
 <div class="category" id="cat8b">
   <div class="category-header" onclick="toggleCat('cat8b')">
-    <div class="category-icon">🛡</div>
+    <div class="category-icon">•</div>
     <div class="category-title">Countermeasures Library</div>
     <div class="category-count">Response strategies + copy-paste scripts</div>
     <div class="category-chevron">▼</div>
@@ -2545,7 +2545,7 @@ body::after{
 <!-- 8C: VERIFICATION HABITS -->
 <div class="category" id="cat8c">
   <div class="category-header" onclick="toggleCat('cat8c')">
-    <div class="category-icon">🔍</div>
+    <div class="category-icon">•</div>
     <div class="category-title">Verification Habits</div>
     <div class="category-count">How to check any claim, identity, or offer</div>
     <div class="category-chevron">▼</div>
@@ -2623,7 +2623,7 @@ body::after{
 <!-- 8D: REPORT & RESOURCES -->
 <div class="category" id="cat8d">
   <div class="category-header" onclick="toggleCat('cat8d')">
-    <div class="category-icon">📡</div>
+    <div class="category-icon">•</div>
     <div class="category-title">Report & Resources</div>
     <div class="category-count">Where to report · Who to contact · Further reading</div>
     <div class="category-chevron">▼</div>
@@ -2942,7 +2942,7 @@ function buildSunkScenarios() {
         ${s.options.map((o,oi)=>`<button class="opt-btn" onclick="answerSunk(${si},${oi},this)">${o}</button>`).join('')}
       </div>
       <div class="reveal-box" id="sunkReveal${si}">
-        <div class="reveal-title">⚡ The Trap Sprung</div>
+        <div class="reveal-title">• The Trap Sprung</div>
         <div class="reveal-text">${s.reveal}</div>
       </div>
     </div>`).join('');
@@ -3312,7 +3312,7 @@ function buildTestimonialsExperiment() {
       <button class="opt-btn" onclick="revealTestimonials(this,'negative')">Three reviews isn't enough to judge</button>
     </div>
     <div class="reveal-box" id="testimonialsReveal">
-      <div class="reveal-title">⚡ All 13 Reviews Revealed</div>
+      <div class="reveal-title">• All 13 Reviews Revealed</div>
       <div id="allReviewsContent"></div>
     </div>`;
 }
@@ -3466,7 +3466,7 @@ function buildHindsight() {
       ${scenario.options.map((o,i)=>`<button class="opt-btn" data-choice="${i}" onclick="answerHindsight(this)">${o}</button>`).join('')}
     </div>
     <div class="reveal-box" id="hindsightReveal">
-      <div class="reveal-title">⚡ The Trap Sprung</div>
+      <div class="reveal-title">• The Trap Sprung</div>
       <div class="reveal-text" id="hindsightRevealText"></div>
     </div>`;
   // Store reveal text safely on the container
@@ -3526,7 +3526,7 @@ function buildDecoyContent() {
       </div>
     </div>
     <div class="reveal-box" id="decoyReveal2">
-      <div class="reveal-title">⚡ The Decoy Effect</div>
+      <div class="reveal-title">• The Decoy Effect</div>
       <div class="reveal-text" id="decoyFinalText"></div>
     </div>`;
 }
@@ -3986,7 +3986,7 @@ function renderTGTBTOffer(idx) {
     </div>
     <button class="submit-btn" style="margin-top:12px" onclick="revealTGTBT(${idx})">Run Full Scanner</button>
     <div class="reveal-box" id="tgtbtReveal">
-      <div class="reveal-title">⚡ Scanner Results</div>
+      <div class="reveal-title">• Scanner Results</div>
       <div class="reveal-text" id="tgtbtRevealText"></div>
     </div>`;
 }
