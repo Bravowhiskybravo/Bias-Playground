@@ -3,11 +3,11 @@
 
 > *"You are about to be manipulated. Every experiment below is a real cognitive trap — the same ones used by advertisers, politicians, con artists, and pseudoscientists. You won't just learn about bias. You'll experience it, make the wrong call, and then see exactly why."*
 
-**Bias Playground** is an interactive critical thinking resource built to expose the cognitive biases, statistical tricks, manipulation tactics, and social engineering patterns that shape decisions without people realizing it. You don't read about the trap. You walk into it — then see the mechanism.
+**Bias Playground** is an interactive critical thinking resource built to expose the cognitive biases, statistical tricks, manipulation tactics, and social engineering patterns that shape decisions without people realizing it. 
 
 Live demo: [Bias-Playground](https://bravowhiskybravo.github.io/Bias-Playground/)
 
-Part of the **BS-O-Tron Suite** → [BS-O-Tron 3000](https://bravowhiskybravo.github.io/bs-a-tron3000)
+
 
 ---
 
@@ -114,6 +114,9 @@ Open `http://localhost:8080` in your browser.
 
 > **Note:** Use `http://localhost` not `file://` — the clipboard API requires a secure context.
 
+
+OR
+Live demo: [Bias-Playground](https://bravowhiskybravo.github.io/Bias-Playground/)
 ---
 
 ## The BS-O-Tron Suite
